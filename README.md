@@ -1,5 +1,5 @@
 # CS 8: Introduction to Computer Science Notes
-Course taken at UC Santa Barbara
+Course taken at UC Santa Barbara \b
 Includes:
   1. Basic programming concepts
   2. Variables and expressions
