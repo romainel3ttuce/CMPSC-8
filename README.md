@@ -1,2 +1,13 @@
-# CS 8 Introduction to Computer Science Notes
-CS 8 Notes
+# CS 8: Introduction to Computer Science Notes
+Course taken at UC Santa Barbara
+Includes:
+  1. Basic programming concepts
+  2. Variables and expressions
+  3. Data and control structures
+  4. Algorithms
+  5. Debugging
+  6. Program design
+  7. Documentation
+
+Language: Python
+
