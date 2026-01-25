@@ -1,1 +1,6 @@
+def digit(n, k):
+    "Return the k-th digit from the right of n for positive integers n and k"
+    return n
+
+print(digit(3579, 2))
 
