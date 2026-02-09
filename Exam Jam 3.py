@@ -21,6 +21,7 @@ def empty_seats(seats):
 print(empty_seats(seats))
 
 # Question 2:
+
 def has_letter_case(s):
     """Return True if and only if s contains at least one lowercase letter
     and at least one uppercase letter."""
@@ -38,6 +39,7 @@ print(has_letter_case('abc123'))
 print(has_letter_case('ABCXYZ'))
 
 # Question 3:
+
 def char_count(s, words):
     """Return a new list in which each item is the number of times
     that the character at the corresponding position of s appears
