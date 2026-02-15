@@ -9,10 +9,13 @@ def get_different_matches(first):
     """
     
     matches = []
-    for i in range(1, len(first) - 1): # We use this range because we do not
-                                       # want the first and last index to count
-                                       # since they don't have a # before and
-                                       # after respectively
+
+    # We use this range because we do not
+    # want the first and last index to count
+    # since they don't have a # before and
+    # after respectively
+    
+    for i in range(1, len(first) - 1): 
         if first[i] != first[i + 1] and first[i] != first[i - 1]:
             matches.append(first[i])
 
