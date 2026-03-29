@@ -1,4 +1,4 @@
-# Lecture #2: Data Types, Expressions:
+# Lecture 2: Data Types, Expressions:
 
 print('Hello' + 'World')
 print('Hello ' + 'World')
