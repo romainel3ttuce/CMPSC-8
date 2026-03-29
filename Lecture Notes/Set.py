@@ -1,5 +1,4 @@
-# Lecture 13 (2/25/26): Set:
-
+# Lecture 13 - Set:
 # Creating a set
 names = {"Albert", "Brian", "Carl"}
 
@@ -47,7 +46,6 @@ print(A < B)
 print(A > B)
 
 # Files:
-
 info = input("Please enter the info")
 
 import os
