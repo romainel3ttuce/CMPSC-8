@@ -1,4 +1,4 @@
-# Lecture #5: Conditionals:
+# Lecture 5 - Conditionals:
 
 x = 1.0
 y = 2.0
