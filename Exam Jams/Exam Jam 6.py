@@ -11,6 +11,7 @@ def invert_dict(dict):
 
     for element in dict:
         new_dict[dict[element]] = element
+        
     return new_dict
 
 print(invert_dict({'a':1, 'b':2}))
@@ -30,6 +31,7 @@ def count_frequencies(words):
             map[element] = 1
         else:
             map[element] += 1
+            
     return map
 
 print(count_frequencies(["a", "b", "a", "c", "b", "a"]))
@@ -47,6 +49,7 @@ def first_repeats(s):
             repeats.add(element)
         else:
             return element
+            
     return ''
 
 print(first_repeats("swiss"))
