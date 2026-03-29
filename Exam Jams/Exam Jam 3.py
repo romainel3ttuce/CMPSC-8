@@ -59,15 +59,12 @@ def char_count(s, words):
 
 s = 'anb'
 words = ['apple', 'banana', 'orange']
-
 print(char_count(s, words))
 
 s = 'xdaao'
 words = ['cat', 'dog', 'cat', 'banana', 'cool']
-
 print(char_count(s, words))
 
 s = 'fW'
 words = ['sanwiches', 'waffles']
-
 print(char_count(s, words))
