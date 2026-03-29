@@ -1,4 +1,5 @@
-# 1st Question:
+# Exam Jam 1
+# Question 1:
 
 def digit(n, k):
     "Return the k-th digit from the right of n for positive integers n and k"
@@ -10,7 +11,7 @@ print(digit(3579, 0))
 
 print(digit(3579, 10))
 
-# 2nd Question:
+# Question 2:
 
 def clamp(x: float, lo: float, hi: float):
     "Return x clamped to the inclusive range [lo, hi]"
@@ -27,7 +28,7 @@ print(clamp(-2.0, 0.0, 10.0))
 
 print(clamp(99.0, 0.0, 10.0))
 
-# 3rd Question:
+# Question 3:
 
 def max_of_pairs_mins(a: float, b: float, c: float, d: float, e: float, f: float):
     "Return the maximum of the minimums of the three pairs (a, b), (c,d), and (e, f)"
