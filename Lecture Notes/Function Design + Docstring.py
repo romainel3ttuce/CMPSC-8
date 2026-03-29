@@ -1,4 +1,4 @@
-# Lecture 6: Function Design + Docstring:
+# Lecture 6 - Function Design + Docstring:
 
 def is_even(value: int) -> bool:
     """
