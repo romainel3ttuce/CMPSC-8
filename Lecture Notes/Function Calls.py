@@ -1,4 +1,4 @@
-# Lecture 10 - 2/11/26: Function Calls:
+# Lecture 10 - Function Calls:
 
 def func1(a, b):
     y = x + a # Global variables aren't a common practice + shouldn't be used
