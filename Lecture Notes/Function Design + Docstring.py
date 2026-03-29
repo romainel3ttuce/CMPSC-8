@@ -10,7 +10,7 @@ def is_even(value: int) -> bool:
     False
     """
 
-    # returns true if the remainder is 0
+    # Returns True if the remainder is 0
     return value % 2 == 0
 
 if __name__ == "__main__":
