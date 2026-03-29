@@ -1,5 +1,5 @@
 # Exam Jam 2
-# Question 1.
+# Question 1:
 
 def count_collatz_steps(n):
     count = 0
@@ -14,7 +14,7 @@ def count_collatz_steps(n):
 n = int(input())
 print(count_collatz_steps(n))
 
-# Question 2.
+# Question 2:
 
 def itvFib(n):
     old = 0
