@@ -1,4 +1,4 @@
-# Lecture 3: Functions:
+# Lecture 3 - Functions:
 # Minimal function that doesn't do anything.
 def foo():
     pass
