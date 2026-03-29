@@ -1,5 +1,4 @@
-# Lecture #12 (2/23/26):
-
+# Lecture 12 - Dictionaries:
 # Creating a Dictionary:
 students = {123:'Alice', 124:'Bob', 125:'Charles'}
 
@@ -66,5 +65,3 @@ print(f'sorted = {sorted(students.keys())}')
 # Empty dictionary
 students.clear()
 print(f'cleared dicts = {students}')
-
-
