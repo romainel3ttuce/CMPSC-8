@@ -1,5 +1,4 @@
 # Exam Jam 6
-
 # Question 1:
 
 def invert_dict(dict):
