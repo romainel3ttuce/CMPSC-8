@@ -1,4 +1,4 @@
-# Lecture 16 (3/9/26): Recursion:
+# Lecture 16 - Recursion:
 
 def factorial(n):
     if n == 0: # BASE CASE
