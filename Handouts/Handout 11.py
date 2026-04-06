@@ -1,7 +1,6 @@
 # Handout 11:
 
 # Question 1:
-
 name_to_binomial = {'human': 'Homo sapiens',
                     'dog': 'Canis familiaris',
                     'narwhal': 'Monodon monoceros'}
@@ -15,7 +14,6 @@ print(len(name_to_binomial) == 3)
 # print(name_to_binomial[0] == 'human')
 
 # Question 2:
-
 animal_to_locomotion = {'fish': ['swim'],
                         'kangaroo': ['hop'],
                         'frog': ['swim', 'hop']}
@@ -41,7 +39,6 @@ print(len(animal_to_locomotion))
 # print(len(animal_to_locomotion))
 
 # Question 3:
-
 from typing import List, Dict
 
 def express_checkout(product_to_quantity: Dict[str, int]) -> bool:
@@ -69,7 +66,6 @@ print(express_checkout({'banana': 3, 'soy milk': 1, 'peanut butter': 1}))
 print(express_checkout({'banana': 3, 'soy milk': 1, 'twinkie': 5}))
 
 # Question 4:
-
 from typing import Dict, List
 
 def build_placements(shoes: List[str]) -> Dict[str, List[int]]:
