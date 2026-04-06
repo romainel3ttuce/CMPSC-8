@@ -7,7 +7,6 @@ def isMultiple(num1, num2):
     (you may assume num2 >= num1 for this function). * If num1 is equal to 0,
     your function should return None.
     '''
-    # COMPLETE YOUR FUNCTION DEFINITION HERE
     if num1 == 0:
         return None
     if num2 % num1 == 0:
@@ -35,8 +34,6 @@ def incrementKeyCount(D, key):
     * Consider using the in operator to check if a key exists in a Dictionary
     * Assert examples below illustrate correct behavior for this function
     '''
-    # COMPLETE YOUR FUNCTION DEFINITION HERE
-    
     if key in D:
         D[key] += 1
     else:
@@ -70,7 +67,6 @@ def computeGrade(percentage):
     * Note, you can check if percentage is an int with type(percentage) == int,
     and a float wiht type(percentage)
     '''
-    # COMPLETE YOUR FUNCTION DEFINITION HERE
     if (type(percentage) == int or type(percentage) == float) and (int(percentage) <= 100 and int(percentage) >= 0):
         if percentage <= 100 and percentage >= 90:
             return "A"
@@ -106,7 +102,6 @@ def updateBookPrice(percentIncrease, bookObject):
     Book object with the same values of bookObject except the price
     is increased by percentIncrease (inflation is real!)
     '''
-    # COMPLETE YOUR FUNCTION DEFINITION HERE
     book_list = list(bookObject)
     book_list[2] = book_list[2] * (1 + percentIncrease)
     bookObject = tuple(book_list)
