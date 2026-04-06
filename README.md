@@ -13,3 +13,5 @@ Includes:
 Language: Python
 
 This repository consists of the notes I took throughout this course as well as Exam Jam (Study Exam) Questions using the IDLE Shell 3.14.2 and VS Code 2
+
+Ending Grade: A+ (100%)
