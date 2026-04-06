@@ -44,7 +44,6 @@ def countMultiples(listOfElements, x):
                 count += 1
 
     return count
-        
 
 assert countMultiples([], 1) == 0
 assert countMultiples([4, 8, 12, 16, 20], 4) == 5
@@ -77,7 +76,6 @@ def getLongestString(listOfElements):
         return None
 
     return max_length
-    
 
 assert getLongestString([]) == None
 assert getLongestString([1, 2.4, True]) == None
