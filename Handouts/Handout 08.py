@@ -1,4 +1,4 @@
-# Handout 08
+# Handout 08:
 
 def can_pay_with_two_coins(denoms: list[int], amount: int) -> bool:
     """Return True if and only if it is possible to form amount, which is a
@@ -40,7 +40,6 @@ def scale_midterm_grades(grades: list[int], multiplier: int, bonus: int) -> None
     >>> grades
     [55, 60, 65, 100]
     """
-    
     for i in range(len(grades)):
         if grades[i] != 100:
             bonus_points = multiplier * bonus
