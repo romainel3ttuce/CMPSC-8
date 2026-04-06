@@ -1,7 +1,6 @@
 # Handout 05:
 
 # Question 1:
-
 def earlier_name(name1: str, name2: str) -> str:
     """Return the name, name1 or name2, that comes first alphabetically
 
@@ -10,7 +9,6 @@ def earlier_name(name1: str, name2: str) -> str:
     >>> earlier_name('Colin', 'Colin')
     'Colin'
     """
-
     # Checks if name1 is greater than name2:
     if name1 < name2:
         return name1
@@ -34,7 +32,6 @@ def ticket_price(age: int) -> float:
     >>> ticket_price(101)
     4.75
     """
-
     # Checks age of individuals and returns corresponding ticket price
     if age >= 65:
         return 4.75
@@ -56,7 +53,6 @@ def is_teenager(age: int) -> bool:
     >>> is_teenager(19)
     False
     """
-
     # Returns whether the age inputted is between 13 and 18 inclusive
     return age >= 13 and age <= 18
 
