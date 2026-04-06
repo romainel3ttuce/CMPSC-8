@@ -1,7 +1,6 @@
 # Handout 10:
 
 # Question 1:
-
 def add_student(students: list, student_id: int, name: str, gpa: float) -> None:
     """students is a list of student records. Each record must be stored as a
     tuple in the form (student_id, name, gpa).
@@ -22,7 +21,6 @@ add_student(students, 101, "Alice", 3.8)
 print(students)
 
 # Question 2:
-
 from typing import List
 
 def stretch_string(s: str, stretch_factors: List[int]) -> str:
@@ -49,7 +47,6 @@ print(stretch_string('Hello', [2, 0, 3, 1, 1]))
 print(stretch_string('echo', [0, 0, 1, 5]))
 
 # Question 3:
-
 def greatest_difference(nums1: List[int], nums2: List[int]) -> int:
     """Return the greatest absolute difference between numbers at corresponding
     positions in nums1 and nums2.
